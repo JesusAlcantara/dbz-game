@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Goku",
+        "image": "goku-base-form.jpg",
+        "description": "Kakarotto fue enviado al Planeta Tierra siendo un bebé con la misión de conquistarla ya que allí habían pocos habitantes que tuvieran un poder de pelea alto y él era un guerrero de clase baja. Cuando aterrizó, un anciano llamado Son Gohan lo recogió y lo llamó Son Goku."
+    },
+    {
+        "id": 2,
+        "name": "Goku Kaioken",
+        "image": "goku-kaioken.jpg",
+        "description": "El Kaioken más que un estado en sí mismo, es una técnica que consiste en una gran mejora de la concentración, lo que permite multiplicar el poder de su usuario durante un tiempo determinado. Así que gracias a esta técnica, Goku consigue mejorar su fuerza, resistencia y velocidad."
+    },
+    {
+        "id": 3,
+        "name": "Goku SSJ",
+        "image": "goku-ss.jpg",
+        "description": "Dejando atrás su forma de mono gigante, esta es la primera gran transformación de Goku, que desbloquea cuando Krillin es asesinado por Freezer. Este evento tan traumático permitió a Goku desatar todo su ki y convertirse en Super Saiyan, ganando muchísimo más poder y una nueva forma muy característica con el pelo rubio encrespado hacia arriba y ojos claros."
+    },
+    {
+        "id": 4,
+        "name": "Goku SSJ 2",
+        "image": "goku-ss2.jpg",
+        "description": "Con esta forma se multiplica todavía más el potencial de cada saiyajin, y aunque físicamente el aspecto no cambia demasiado, el pelo de Goku se vuelve todavía más picudo y también le rodea un aura de energía eléctrica."
+    },
+    {
+        "id": 5,
+        "name": "Goku SSJ 3",
+        "image": "goku-ss3.jpg",
+        "description": "La fase Super Saiyan 3 es posiblemente la transformación con más cambios físicos, ya que además de ganar muchísima musculatura, el pelo de Goku se transforma en una larguísima melena rubia que casi toca el suelo y sus cejas desaparecen."
+    },
+    {
+        "id": 6,
+        "name": "Goku SSJ 4",
+        "image": "goku-ss4.jpg",
+        "description": "El SSJ4 es una transformación perteneciente a una línea de formas saiyans primitivas diferente a la del Super Saiyan tradicional, siendo un estado híbrido entre el Ozaru y el Super Saiyan que supera en poder al Super Saiyan 3 y el Ozaru Dorado."
+    },
+    {
+        "id": 7,
+        "name": "Goku SSJ God",
+        "image": "goku-god.jpg",
+        "description": "Con la forma de Super Saiyan Dios, Goku es capaz de enfrentarse a Bills, el Dios de la Destrucción. Para obtener esta forma por primera vez, se debe completar un ritual con otros cinco saiyajins de corazón puro, aunque más adelante Goku puede transformarse a voluntad."
+    },
+    {
+        "id": 8,
+        "name": "Goku SSJ Blue",
+        "image": "goku-blue.png",
+        "description": "Como su nombre indica, con esta transformación tanto el aura como el pelo de Goku se vuelven de un intenso color azul y sus poderes de Super Saiyan aumentan considerablemente. Ha sido una de las formas más utilizadas por Goku en la serie."
+    },
+    {
+        "id": 9,
+        "name": "Goku SSJ Blue Kaioken",
+        "image": "goku-blue-kaioken.png",
+        "description": "Goku utiliza una combinación entre el Kaio-ken y el Super Saiyan Blue pudiendo aumentar en gran medida su poder. Con esto rompe los límetes de poder que le otorga la tranformación en Super Saiyan Blue llegando al máximo de Kaiokenx20 estando en esta forma."
+    },
+    {
+        "id": 10,
+        "name": "Goku Ultra Instinto",
+        "image": "goku-ultra-instinto.jpeg",
+        "description": "Es una habilidad psicológica suprema que separa la conciencia del cuerpo, lo que le permite al usuario moverse y combatir independientemente de los pensamientos y emociones de un artista marcial. Es una técnica extraordinariamente difícil de dominar por completo, incluso deidades como los Dioses de la Destrucción tienen complicaciones al aprenderla, sin embargo, algunos ángeles guía parecen tener un control óptimo de ella."
+    },
+    {
+        "id": 11,
+        "name": "Goku Ultra Instinto Dominado",
+        "image": "goku-ultra-instinto-dominado.jpg",
+        "description": "Los efectos de la transformación en el usuario es una mayor intensidad en aumentos de poder y velocidad espontáneos, como pueden ser los sentimientos de coraje causados por ataques de ira, rabia o furia, principalmente. Aunque esta característica esté presente en muchas otras personas y formas, el impacto que tiene sobre un usuario de la Doctrina Egoísta es mucho más fuerte y notable, lo cual es prácticamente contraproducente y dañino"
+    },
+    {
+        "id": 12,
+        "name": "Vegeta forma base",
+        "image": "vegeta-base-form.jpg",
+        "description": "Vegeta, reconocido como Príncipe Vegeta, es el príncipe de la raza Saiyajin caída. Regio, egoísta y lleno de orgullo, Vegeta fue una vez un guerrero despiadado y de sangre fría y un asesino absoluto, pero luego abandonó su posición en la Fuerza Freezer por una vida pacífica en la Tierra."
+    },
+    {
+        "id": 13,
+        "name": "Vegeta SSJ",
+        "image": "vegeta-ssj.jpg",
+        "description": "Tras un duro entrenamiento en solitario, y con ayuda de Bulma al final, Vegeta alcanzaría el estado de Super Saiyan en la pelea contra los androides Nº19 y Nº20 (o DR. Gero)."
+    },
+    {
+        "id": 14,
+        "name": "Majin Vegeta",
+        "image": "vegeta-majin.jpg",
+        "description": "Vegeta se dejó manipular por Babidi para poder tener una revancha contra Goku, su eterno rival. Los dos saiyajines no se habían enfrentado desde que Vegeta llegó al planeta Tierra, y como siempre fue un mal perdedor, nunca aceptó su derrota ante Kakaroto. Babidi le prometió un poder inigualable al intentar controlarlo, cosa que Vegeta necesitaría si quería volver a enfrentarse a Goku con resultados diferentes a su anterior batalla."
+    },
+    {
+        "id": 15,
+        "name": "Vegeta SSJ God",
+        "image": "goku-base-form.jpg",
+        "description": ""
+    },
+    {
+        "id": 16,
+        "name": "Vegeta SSJ Blue",
+        "image": "goku-base-form.jpg",
+        "description": ""
+    },
+    {
+        "id": 17,
+        "name": "Vegeta SSJ Blue Evolution",
+        "image": "goku-base-form.jpg",
+        "description": ""
+    },
+    {
+        "id": 18,
+        "name": "Vegeta Ultra Ego",
+        "image": "goku-base-form.jpg",
+        "description": ""
+    }
+]

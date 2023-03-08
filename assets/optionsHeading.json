@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Inicio",
+        "url": "/"
+    },
+    {
+        "id": 2,
+        "name": "Juego",
+        "url": "/game"
+    },
+    {
+        "id": 3,
+        "name": "Personajes",
+        "url": "/characters"
+    }
+]
