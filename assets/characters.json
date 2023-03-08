@@ -7,7 +7,7 @@
     },
     {
         "id": 2,
-        "name": "Goku Kaioken",
+        "name": "Goku Kaio-ken",
         "image": "goku-kaioken.jpg",
         "description": "El Kaioken más que un estado en sí mismo, es una técnica que consiste en una gran mejora de la concentración, lo que permite multiplicar el poder de su usuario durante un tiempo determinado. Así que gracias a esta técnica, Goku consigue mejorar su fuerza, resistencia y velocidad."
     },
@@ -86,25 +86,19 @@
     {
         "id": 15,
         "name": "Vegeta SSJ God",
-        "image": "goku-base-form.jpg",
-        "description": ""
+        "image": "vegeta-god.png",
+        "description": "Vegeta se va a entrenar con Whis durante 6 meses y el ángel fue quien le enseñó a Vegeta a como controlar su Ki. Durante dicho entrenamiento se cree que Vegeta alcanza la fase Dios y logra convertirse en Super Saiyajin God."
     },
     {
         "id": 16,
         "name": "Vegeta SSJ Blue",
-        "image": "goku-base-form.jpg",
-        "description": ""
+        "image": "vegeta-blue.jpg",
+        "description": "Durante el entramiento con Whis en el planeta de Bills, Vegeta consigue controlar su Ki, alcanzando de esta forma el Super Saiyan Blue aparte del Super Saiyan God."
     },
     {
         "id": 17,
         "name": "Vegeta SSJ Blue Evolution",
-        "image": "goku-base-form.jpg",
-        "description": ""
-    },
-    {
-        "id": 18,
-        "name": "Vegeta Ultra Ego",
-        "image": "goku-base-form.jpg",
-        "description": ""
+        "image": "vegeta-blue-evolution.jpg",
+        "description": "Usando esta forma, Vegeta pudo superar los límites de la fuerza del Super Saiyan Blue, consiguiendo igualar e inclusive ser capaz de superar ligeramente a Son Goku utilizando el Kaio-ken x20 en Super Saiyan Blue. Vegeta lo usó por primera vez en el combate con el Dios de la Destrucción Toppo."
     }
 ]

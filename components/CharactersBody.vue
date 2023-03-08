@@ -6,11 +6,17 @@
             class="card m-2"
             style="width: 18rem;"
         >
-            <img :src="getImage(character.image)" class="card-img-top" :alt="character.name">
+            <img
+                :src="getImage(character.image)"
+                class="card-img-top"
+                :alt="character.name">
             <div class="card-body">
                 <h5 class="card-title">{{ character.name }}</h5>
-                <p class="card-text">{{ character.description }}</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
+                <nuxt-link
+                    :to="`/characters/${character.id}`"
+                >
+                   <button @click="saveCharacter(character.id)" class="btn btn-primary">Ver más</button>
+                </nuxt-link>
             </div>
         </div>
     </div>
@@ -19,6 +25,11 @@
 <script>
 import characters from '~/assets/characters.json';
 export default {
+    data () {
+        return {
+            item: {}
+        }
+    },
     computed: {
         items () {
             return characters.map((item) => {
@@ -29,6 +40,14 @@ export default {
     methods: {
         getImage(img) {
             return require(`../public/images/charactersImg/${img}`);
+        },
+        saveCharacter (id) {
+            characters.forEach(charact => {
+                if (charact.id === id) {
+                    this.item = charact
+                    console.log(this.item);
+                }
+            });
         }
     }
 }
