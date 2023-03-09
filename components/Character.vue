@@ -12,7 +12,6 @@ export default {
     },
     mounted () {
         characters.forEach(item => {
-            console.log(item);
             if ( item.id === this.$route.params.id ) {
                 console.log('llego');
                 this.character = item
