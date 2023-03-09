@@ -14,8 +14,9 @@
                 <h5 class="card-title">{{ character.name }}</h5>
                 <nuxt-link
                     :to="`/characters/${character.id}`"
+                    class="btn btn-primary"
                 >
-                   <button @click="saveCharacter(character.id)" class="btn btn-primary">Ver más</button>
+                   Ver más
                 </nuxt-link>
             </div>
         </div>
@@ -40,14 +41,6 @@ export default {
     methods: {
         getImage(img) {
             return require(`../public/images/charactersImg/${img}`);
-        },
-        saveCharacter (id) {
-            characters.forEach(charact => {
-                if (charact.id === id) {
-                    this.item = charact
-                    console.log(this.item);
-                }
-            });
         }
     }
 }

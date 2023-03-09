@@ -10,7 +10,8 @@
           >
             <nuxt-link
               class="nav-link text-white"
-              aria-current="page" :to="`${item.url}`"
+              aria-current="page"
+              :to="`${item.url}`"
             >
               {{ item.name }}
             </nuxt-link>
@@ -29,7 +30,7 @@ export default {
       return {
         options: optionsHeading
       };
-    },
+    }
 }
 </script>
 

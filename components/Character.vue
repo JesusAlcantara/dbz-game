@@ -1,15 +1,24 @@
 <template>
-    <h2>DBZ Character</h2>
+    <h2>{{ character.name }}</h2>
 </template>
 
 <script>
+import characters from '~/assets/characters.json'
 export default {
-    props: {
-        character: {
-            type: Object
+    data () {
+        return {
+            character: {}
         }
+    },
+    mounted () {
+        characters.forEach(item => {
+            console.log(item);
+            if ( item.id === this.$route.params.id ) {
+                console.log('llego');
+                this.character = item
+            }
+        });
     }
-
 }
 </script>
 

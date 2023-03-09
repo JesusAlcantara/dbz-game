@@ -100,5 +100,17 @@
         "name": "Vegeta SSJ Blue Evolution",
         "image": "vegeta-blue-evolution.jpg",
         "description": "Usando esta forma, Vegeta pudo superar los límites de la fuerza del Super Saiyan Blue, consiguiendo igualar e inclusive ser capaz de superar ligeramente a Son Goku utilizando el Kaio-ken x20 en Super Saiyan Blue. Vegeta lo usó por primera vez en el combate con el Dios de la Destrucción Toppo."
+    },
+    {
+        "id": 18,
+        "name": "Vegeta Baby",
+        "image": "vegeta-baby.jpg",
+        "description": "Es la forma asumida y adoptada por la máquina mutante tsufruiana Baby cuando este toma control de Vegeta usando la Tsufruitanización. Este estado aparece por primera vez como la forma principal de Baby en Dragon Ball GT."
+    },
+    {
+        "id": 19,
+        "name": "Vegeta SSJ 4",
+        "image": "vegeta-ssj4.jpg",
+        "description": "Vegeta es el segundo que alcanza el Super Saiyan 4. Vegeta se transforma para ayudar a Goku en su lucha contra Super Yi Xing Long. Gracias a la colaboración de Bulma, que le fabricó un Generador de Rayos Blutz, con esta maquina pudo recuperar su cola, transformarse en Ozaru y un Ozaru Dorado consiguiendo así alcanzar el nivel 4."
     }
 ]

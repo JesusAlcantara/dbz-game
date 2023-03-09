@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Dragon Ball",
+        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_(anime)"
+    },
+    {
+        "id": 2,
+        "name": "Dragon Ball Z",
+        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z"
+    },
+    {
+        "id": 3,
+        "name": "Dragon Ball GT",
+        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_GT"
+    },
+    {
+        "id": 4,
+        "name": "Dragon Ball Super",
+        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Super"
+    }
+]
