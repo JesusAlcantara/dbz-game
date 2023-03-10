@@ -13,5 +13,15 @@
         "id": 3,
         "name": "Personajes",
         "url": "/characters"
+    },
+    {
+        "id": 4,
+        "name": "Series",
+        "url": "/series"
+    },
+    {
+        "id": 5,
+        "name": "Películas",
+        "url": "/films"
     }
 ]

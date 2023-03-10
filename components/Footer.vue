@@ -51,16 +51,16 @@
                         v-for="serie in series"
                         :key="serie.id"
                     >
-                        <a :href="`${serie.url}`" class="text-reset">{{ serie.name }}</a>
+                        {{ serie.name }}
                     </p>
                 </div>
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">Mejores Películas</h6>
                     <p
-                        v-for="film in films"
+                        v-for="film in filmsArr"
                         :key="film.id"
                     >
-                        <a :href="`${film.url}`" class="text-reset">{{ film.name }}</a>
+                        {{ film.name }}
                     </p>
                 </div>
             </div>
@@ -80,8 +80,20 @@ export default {
     data() {
       return {
         series,
-        films
-      };
+        filmsArr: []
+      }
+    },
+    methods: {
+        getBestFilms () {
+            films.forEach(film => {
+                if (film.fav === true) {
+                    this.filmsArr.push(film)
+                }
+            });
+        }
+    },
+    mounted () {
+        this.getBestFilms()
     }
 }
 </script>

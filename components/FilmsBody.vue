@@ -1,19 +1,19 @@
 <template>
     <div class="d-flex justify-content-around flex-wrap contenedor">
         <div
-            v-for="character in items"
-            :key="character.key"
+            v-for="film in items"
+            :key="film.id"
             class="card m-2"
             style="width: 18rem;"
         >
             <img
-                :src="getImage(character.image)"
+                :src="getImage(film.image)"
                 class="card-img-top"
-                :alt="character.name">
+                :alt="film.name">
             <div class="card-body">
-                <h5 class="card-title">{{ character.name }}</h5>
+                <h5 class="card-title">{{ film.name }}</h5>
                 <nuxt-link
-                    :to="`/characters/${character.id}`"
+                    :to="`/characters/${film.id}`"
                     class="btn btn-primary"
                 >
                    Ver más
@@ -24,30 +24,25 @@
 </template>
 
 <script>
-import characters from '~/assets/characters.json';
+import films from '~/assets/films.json';
 export default {
-    data () {
-        return {
-            item: {}
-        }
-    },
     computed: {
         items () {
-            return characters.map((item) => {
-                return item
+            return films.map((film) => {
+                return film
             })
         }
     },
     methods: {
         getImage(img) {
-            return require(`../public/images/charactersImg/${img}`);
+            return require(`../public/images/films/${img}`);
         }
     }
 }
 </script>
 
-<style scoped>
-    .contenedor {
+<style>
+.contenedor {
         background-color: white;
     }
     .card-title {

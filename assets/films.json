@@ -1,22 +1,134 @@
 [
     {
         "id": 1,
-        "name": "Dragon Ball Z: Una solitaria batalla final",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z:_Una_solitaria_batalla_final_%E2%80%94Quien_desafi%C3%B3_a_Freeza,_el_padre_del_Guerrero_Z_Kakarotto%E2%80%94"
+        "name": "Dragon Ball: La leyenda de Shen Long",
+        "fav": false,
+        "image": "film-xeron.jpg"
     },
     {
         "id": 2,
-        "name": "Dragon Ball Z: ¡El desafío a la desesperación! Los superguerreros restantes: Gohan y Trunks",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z:_%C2%A1El_desaf%C3%ADo_a_la_desesperaci%C3%B3n!_Los_superguerreros_restantes:_Gohan_y_Trunks"
+        "name": "Dragon Ball: La princesa durmiente del castillo embrujado",
+        "fav": false,
+        "image": "film-castillo-mal.jpg"
     },
     {
         "id": 3,
-        "name": "Dragon Ball Super: Broly",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Super:_Broly"
+        "name": "Dragon Ball: Una gran aventura mística",
+        "fav": false,
+        "image": "film-aventura-mistica.jpeg"
     },
     {
         "id": 4,
-        "name": "Dragon Ball Z: ¡Arde! Una superbatalla feroz, extrema y ardiente",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z:_%C2%A1Arde!_Una_superbatalla_feroz,_extrema_y_ardiente"
+        "name": "Dragon Ball: El camino hacia el más fuerte",
+        "fav": false,
+        "image": "film-camino-masfuerte.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dragon Ball Z: Devolvedme a mi Gohan",
+        "fav": false,
+        "image": "film-devolver-gohan.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dragon Ball Z: El más fuerte del mundo",
+        "fav": false,
+        "image": "film-fuerte.webp"
+    },
+    {
+        "id": 7,
+        "name": "Dragon Ball Z: Una superbatalla decisiva por la Tierra",
+        "fav": false,
+        "image": "film-superbatalla.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Dragon Ball Z: Los rivales más poderosos",
+        "fav": false,
+        "image": "film-rivales-poderosos.webp"
+    },
+    {
+        "id": 9,
+        "name": "Dragon Ball Z: ¡Choque! Los guerreros con un poder de diez mil millones",
+        "fav": false,
+        "image": "film-millon-poder.webp"
+    },
+    {
+        "id": 10,
+        "name": "Dragon Ball Z: ¡Una batalla extrema! Los tres grandes Super Saiyans",
+        "fav": false,
+        "image": "film-batalla-extrema.webp"
+    },
+    {
+        "id": 11,
+        "name": "Dragon Ball Z: ¡Arde! Una ardiente, intensa y super feroz batalla",
+        "fav": true,
+        "image": "film-feroz-batalla.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Dragon Ball Z: ¡La galaxia está al borde del peligro! Un sujeto demasiado asombroso",
+        "fav": false,
+        "image": "film-galaxia.webp"
+    },
+    {
+        "id": 13,
+        "name": "Dragon Ball Z: ¡El dúo peligroso! Los superguerreros nunca duermen",
+        "fav": false,
+        "image": "film-duo-peligroso.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Dragon Ball Z: El último combate",
+        "fav": true,
+        "image": "film-bardock.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Dragon Ball Z: Un futuro diferente: Gohan y Trunks",
+        "fav": true,
+        "image": "film-gohan-trunks.webp"
+    },
+    {
+        "id": 16,
+        "name": "Dragon Ball Z: ¡Los superguerreros vencen! La victoria solamente será mía",
+        "fav": false,
+        "image": "film-superguerreros.webp"
+    },
+    {
+        "id": 17,
+        "name": "Dragon Ball Z: ¡El renacer de la fusión! Goku y Vegeta",
+        "fav": false,
+        "image": "film-fusion.webp"
+    },
+    {
+        "id": 18,
+        "name": "Dragon Ball Z: ¡La explosión del Puño del Dragón! Si es que Goku no lo puede hacer, ¿quién lo hará?",
+        "fav": false,
+        "image": "film-punyo-dragon.webp"
+    },
+    {
+        "id": 19,
+        "name": "Dragon Ball Z: La batalla de los dioses",
+        "fav": false,
+        "image": "film-batalla-dioses.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Dragon Ball Z: La resurrección de 'F'",
+        "fav": false,
+        "image": "film-freezer.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Dragon Ball Super: Broly",
+        "fav": true,
+        "image": "film-broly.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Dragon Ball Super: Super Hero",
+        "fav": false,
+        "image": "film-superhero.jpg"
     }
 ]

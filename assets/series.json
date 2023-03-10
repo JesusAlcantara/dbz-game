@@ -2,21 +2,21 @@
     {
         "id": 1,
         "name": "Dragon Ball",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_(anime)"
+        "image": "dragon-ball.jpg"
     },
     {
         "id": 2,
         "name": "Dragon Ball Z",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Z"
+        "image": "dragon-ball-z.jpg"
     },
     {
         "id": 3,
         "name": "Dragon Ball GT",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_GT"
+        "image": "dragon-ball-gt.jpg"
     },
     {
         "id": 4,
         "name": "Dragon Ball Super",
-        "url": "https://dragonball.fandom.com/es/wiki/Dragon_Ball_Super"
+        "image": "dragon-ball-super.jpg"
     }
 ]
