@@ -1,6 +1,16 @@
 <template>
-    <div class="d-flex">
-        <h2>Index Body</h2>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                Una de tres columnas
+            </div>
+            <div class="col">
+                Una de tres columnas
+            </div>
+            <div class="col">
+                Una de tres columnas
+            </div>
+        </div>
     </div>
 </template>
 

@@ -1,7 +1,14 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <h2 class="navbar-brand m-2 text-white">Dragon Ball Page</h2>
+      <h2 class="navbar-brand m-2 text-white">
+        <nuxt-link
+          to="/"
+          class="link"
+        >
+          Dragon Ball Page
+        </nuxt-link>
+      </h2>
         <ul class="navbar-nav">
           <li 
             v-for="item in options"
@@ -17,7 +24,13 @@
             </nuxt-link>
           </li>
         </ul>
-        <img src="../public/images/bolaDragon7.png" alt="dragonBall" width="50" height="50" class="img-thumbnail rounded float-right m-2">
+        <img
+          src="../public/images/bolaDragon7.png"
+          alt="dragonBall"
+          width="50"
+          height="50"
+          class="img-thumbnail rounded float-right m-2"
+        >
       </div>
   </nav>
 </template>
@@ -38,8 +51,10 @@ export default {
   nav {
     background-color: black;
   }
-  h2 {
+  .link {
     font-family: fantasy;
+    text-decoration: none;
+    color: white;
   }
   a {
     font-family: fantasy;
