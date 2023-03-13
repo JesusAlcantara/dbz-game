@@ -20,9 +20,9 @@
                 </button>
             </div>
         </div>
-        <ModalComponent
+        <ModalFilmSerie
             v-show="showModal"
-            :character="item"
+            :item="item"
             :image="getImage(imageItem)"
             @close-modal="showModal = false"
         />
@@ -31,10 +31,10 @@
 
 <script>
 import films from '~/assets/films.json';
-import ModalComponent from './ModalComponent.vue';
+import ModalFilmSerie from './modals/ModalFilmSerie.vue';
 
 export default {
-    components: { ModalComponent },
+    components: { ModalFilmSerie },
     data () {
         return {
             item: {},

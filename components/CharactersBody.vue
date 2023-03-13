@@ -20,7 +20,7 @@
                 </button>
             </div>
         </div>
-        <ModalComponent
+        <ModalCharacters
             v-show="showModal"
             :character="item"
             :image="getImage(imageItem)"
@@ -31,10 +31,10 @@
 
 <script>
 import characters from '~/assets/characters.json';
-import ModalComponent from './ModalComponent.vue';
+import ModalCharacters from './modals/ModalCharacters.vue';
 
 export default {
-    components: { ModalComponent },
+    components: { ModalCharacters },
     data () {
         return {
             item: {},
