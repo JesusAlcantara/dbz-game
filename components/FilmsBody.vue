@@ -12,20 +12,36 @@
                 :alt="film.name">
             <div class="card-body">
                 <h5 class="card-title">{{ film.name }}</h5>
-                <nuxt-link
-                    :to="`/characters/${film.id}`"
+                <button
                     class="btn btn-primary"
+                    @click="showModal = true; saveCharacter(film)"
                 >
-                   Ver más
-                </nuxt-link>
+                    Ver más
+                </button>
             </div>
         </div>
+        <ModalComponent
+            v-show="showModal"
+            :character="item"
+            :image="getImage(imageItem)"
+            @close-modal="showModal = false"
+        />
     </div>
 </template>
 
 <script>
 import films from '~/assets/films.json';
+import ModalComponent from './ModalComponent.vue';
+
 export default {
+    components: { ModalComponent },
+    data () {
+        return {
+            item: {},
+            showModal: false,
+            imageItem: 'film-defecto.png' 
+        }
+    },
     computed: {
         items () {
             return films.map((film) => {
@@ -36,13 +52,17 @@ export default {
     methods: {
         getImage(img) {
             return require(`../public/images/films/${img}`);
+        },
+        saveCharacter (character) {
+            this.item = character
+            this.imageItem = character.image
         }
     }
 }
 </script>
 
 <style>
-.contenedor {
+    .contenedor {
         background-color: white;
     }
     .card-title {

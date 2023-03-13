@@ -12,20 +12,35 @@
                 :alt="serie.name">
             <div class="card-body">
                 <h5 class="card-title">{{ serie.name }}</h5>
-                <nuxt-link
-                    :to="`/characters/${serie.id}`"
+                <button
                     class="btn btn-primary"
+                    @click="showModal = true; saveCharacter(serie)"
                 >
-                   Ver más
-                </nuxt-link>
+                    Ver más
+                </button>
             </div>
         </div>
+        <ModalComponent
+            v-show="showModal"
+            :character="item"
+            :image="getImage(imageItem)"
+            @close-modal="showModal = false"
+        />
     </div>
 </template>
 
 <script>
 import series from '~/assets/series.json';
+import ModalComponent from './ModalComponent.vue';
 export default {
+    components: { ModalComponent },
+    data () {
+        return {
+            item: {},
+            showModal: false,
+            imageItem: 'serie-defecto.png' 
+        }
+    },
     computed: {
         items () {
             return series.map((serie) => {
@@ -36,13 +51,17 @@ export default {
     methods: {
         getImage(img) {
             return require(`../public/images/series/${img}`);
+        },
+        saveCharacter (character) {
+            this.item = character
+            this.imageItem = character.image
         }
     }
 }
 </script>
 
 <style>
-.contenedor {
+    .contenedor {
         background-color: white;
     }
     .card-title {

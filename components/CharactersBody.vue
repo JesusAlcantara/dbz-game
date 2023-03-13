@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-around flex-wrap contenedor">
         <div
             v-for="character in items"
-            :key="character.key"
+            :key="character.id"
             class="card m-2"
             style="width: 18rem;"
         >
@@ -12,23 +12,34 @@
                 :alt="character.name">
             <div class="card-body">
                 <h5 class="card-title">{{ character.name }}</h5>
-                <nuxt-link
-                    :to="`/characters/${character.id}`"
+                <button
                     class="btn btn-primary"
+                    @click="showModal = true; saveCharacter(character)"
                 >
-                   Ver más
-                </nuxt-link>
+                    Ver más
+                </button>
             </div>
         </div>
+        <ModalComponent
+            v-show="showModal"
+            :character="item"
+            :image="getImage(imageItem)"
+            @close-modal="showModal = false"
+        />
     </div>
 </template>
 
 <script>
 import characters from '~/assets/characters.json';
+import ModalComponent from './ModalComponent.vue';
+
 export default {
+    components: { ModalComponent },
     data () {
         return {
-            item: {}
+            item: {},
+            showModal: false,
+            imageItem: 'character-defecto.png' 
         }
     },
     computed: {
@@ -41,6 +52,10 @@ export default {
     methods: {
         getImage(img) {
             return require(`../public/images/charactersImg/${img}`);
+        },
+        saveCharacter (character) {
+            this.item = character
+            this.imageItem = character.image
         }
     }
 }
@@ -49,12 +64,10 @@ export default {
 <style scoped>
     .contenedor {
         background-color: white;
+        height: 100%;
     }
     .card-title {
         font-family: fantasy;
-    }
-    .card-text {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .card-img-top {
         height: 400px;
