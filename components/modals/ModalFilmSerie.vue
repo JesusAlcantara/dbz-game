@@ -63,12 +63,6 @@ export default {
         font-family: fantasy;
         text-align: center;
     }
-    .description {
-        width: 50%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        margin-left: 25%;
-    }
     .modal-overlay {
         background: rgba(0, 0, 0, 0.4);
         width: 100%;
