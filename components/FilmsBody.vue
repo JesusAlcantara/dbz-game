@@ -12,20 +12,8 @@
                 :alt="film.name">
             <div class="card-body">
                 <h5 class="card-title">{{ film.name }}</h5>
-                <button
-                    class="btn btn-primary"
-                    @click="showModal = true; saveCharacter(film)"
-                >
-                    Ver más
-                </button>
             </div>
         </div>
-        <ModalFilmSerie
-            v-show="showModal"
-            :item="item"
-            :image="getImage(imageItem)"
-            @close-modal="showModal = false"
-        />
     </div>
 </template>
 
