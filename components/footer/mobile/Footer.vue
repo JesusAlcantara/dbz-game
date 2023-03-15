@@ -1,7 +1,7 @@
 <template>
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="d-flex justify-content-center align-items-center text-center p-4 border-bottom flex-column">
-            <div class="me-5 d-none d-lg-block">
+    <footer class="text-lg-start bg-light text-muted">
+        <section class="align-items-center text-center p-4 border-bottom flex-column">
+            <div>
                 <span class="fw-bold">Conecta conmigo a través de mis redes sociales:&nbsp;</span>
                 <a href="https://www.facebook.com/profile.php?id=100004813327393" class="m-2 text-reset">
                     <i class="bi bi-facebook"></i>
@@ -20,7 +20,7 @@
                 </a>
             </div>
             <br>
-            <div class="me-5 d-none d-lg-block">
+            <div>
                 <span class="fw-bold">Si quieres más información acerca del mundo de Dragon Ball visita la Wiki Hispana 
                     <a 
                         href="https://dragonball.fandom.com/es/wiki/Dragon_Ball_Wiki_Hispano"

@@ -13,7 +13,7 @@
           <li 
             v-for="item in options"
             :key="item.id"
-            class="nav-item d-flex"
+            class="nav-item"
           >
             <nuxt-link
               class="nav-link text-white"
