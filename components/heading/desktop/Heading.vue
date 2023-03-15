@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <h2 class="navbar-brand m-2 text-white">
         <nuxt-link
@@ -48,15 +48,14 @@ export default {
 </script>
 
 <style scoped>
-  nav {
-    background-color: black;
-  }
   .link {
     font-family: fantasy;
     text-decoration: none;
     color: white;
+    font-size: 25px;
   }
-  a {
+  .nav-link {
     font-family: fantasy;
+    font-size: 25px;
   }
 </style>
