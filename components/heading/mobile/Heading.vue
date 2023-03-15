@@ -19,8 +19,16 @@
       data-bs-target="#opciones"
       aria-label="Close"
     ></button>
-    <nuxt-link to="/" class="text-white m-2 text-decoration-none font-fantasy">Dragon Ball Page</nuxt-link>
-    <div class="collapse navbar-collapse" id="opciones">
+    <nuxt-link
+      to="/"
+      class="text-white m-2 text-decoration-none font-fantasy"
+    >
+      Dragon Ball Page
+    </nuxt-link>
+    <div
+      class="collapse navbar-collapse"
+      id="opciones"
+    >
       <hr class="border-light" />
       <ul class="navbar-nav align-items-center">
         <li 
