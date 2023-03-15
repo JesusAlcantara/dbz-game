@@ -32,7 +32,7 @@
                 data-bs-interval="4000"
             >
                 <img
-                    src="@/public/images/news/mobile/budokai.jpg"
+                    src="@/public/images/carousel/mobile/budokai.jpg"
                     class="img-carousel"
                     alt="budokai"
                 >
@@ -42,7 +42,7 @@
                 data-bs-interval="4000"
             >
                 <img
-                    src="@/public/images/news/mobile/db-legends.png"
+                    src="@/public/images/carousel/mobile/db-legends.png"
                     class="img-carousel"
                     alt="dbLegends"
                 >
@@ -52,7 +52,7 @@
                 data-bs-interval="4000"
             >
                 <img
-                    src="@/public/images/news/mobile/saga-superheroes.jpeg"
+                    src="@/public/images/carousel/mobile/saga-superheroes.jpeg"
                     class="img-carousel"
                     alt="newSaga"
                 >

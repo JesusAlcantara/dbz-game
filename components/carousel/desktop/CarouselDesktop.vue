@@ -31,7 +31,7 @@
                 class="carousel-item active"
                 data-bs-interval="4000">
                 <img
-                    src="@/public/images/news/desktop/budokai.jpg"
+                    src="@/public/images/carousel/desktop/budokai.jpg"
                     class="img-carousel"
                     alt="budokai"
                 >
@@ -40,7 +40,7 @@
                 class="carousel-item"
                 data-bs-interval="4000">
                 <img
-                    src="@/public/images/news/desktop/db-legends.jpg"
+                    src="@/public/images/carousel/desktop/db-legends.jpg"
                     class="img-carousel"
                     alt="dbLegends"
                 >
@@ -49,7 +49,7 @@
                 class="carousel-item"
                 data-bs-interval="4000">
                 <img
-                    src="@/public/images/news/desktop/saga-superheroes.png"
+                    src="@/public/images/carousel/desktop/saga-superheroes.png"
                     class="img-carousel"
                     alt="newSaga"
                 >

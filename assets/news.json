@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "¡¡Dragon Ball Legends lanza ULTRA Super Saiyan Rosé Goku Black!! ¡Comienza la campaña Primera primavera! ¡Legends de lujo!",
+        "category": "Juegos",
+        "image": "luxury-campaign.jpg"
+    },
+    {
+        "id": 2,
+        "description": "¡Super Dragon Ball Heroes: Ultra God Mission #7 ya está disponible!",
+        "category": "Cartas",
+        "image": "db-heroes.jpg"
+    },
+    {
+        "id": 3,
+        "description": "¡Lanzamiento del logotipo y la imagen clave del quinto DLC de DRAGON BALL Z: KAKAROT!",
+        "category": "Juegos",
+        "image": "kakarot.jpg"
+    },
+    {
+        "id": 4,
+        "description": "Dragon Ball Super Comic Volumen 20 !Ya a la venta!",
+        "category": "Libros",
+        "image": "manga20.jpg"
+    },
+    {
+        "id": 5,
+        "description": "!Confirmada fehca de la temporada 2 de DRAGON BALL: THE BREAKERS!",
+        "category": "Juegos",
+        "image": "the-breakers.jpg"
+    }
+]
