@@ -2,6 +2,7 @@
     <div
         id="carouselIndex"
         class="carousel slide"
+        data-bs-ride="carousel"
     >
         <div class="carousel-indicators">
             <button
@@ -26,21 +27,30 @@
             ></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div
+                class="carousel-item active"
+                data-bs-interval="4000"
+            >
                 <img
                     src="@/public/images/news/mobile/budokai.jpg"
                     class="img-carousel"
                     alt="budokai"
                 >
             </div>
-            <div class="carousel-item">
+            <div
+                class="carousel-item"
+                data-bs-interval="4000"
+            >
                 <img
                     src="@/public/images/news/mobile/db-legends.png"
                     class="img-carousel"
                     alt="dbLegends"
                 >
             </div>
-            <div class="carousel-item">
+            <div
+                class="carousel-item"
+                data-bs-interval="4000"
+            >
                 <img
                     src="@/public/images/news/mobile/saga-superheroes.jpeg"
                     class="img-carousel"
