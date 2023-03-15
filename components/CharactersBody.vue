@@ -31,7 +31,8 @@
 
 <script>
 import characters from '~/assets/characters.json';
-import ModalCharacters from './modals/ModalCharacters.vue';
+import ModalCharacters from './modals/modal-characters/desktop/ModalCharacters.vue';
+import isMobile from '~/static/isMobile';
 
 export default {
     components: { ModalCharacters },
@@ -39,8 +40,13 @@ export default {
         return {
             item: {},
             showModal: false,
-            imageItem: 'character-defecto.png' 
+            imageItem: 'character-defecto.png',
+            isMobile: false
         }
+    },
+    mounted () {
+        this.isMobile = isMobile()
+        console.log(this.isMobile);
     },
     computed: {
         items () {

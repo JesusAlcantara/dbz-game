@@ -25,7 +25,7 @@
           </li>
         </ul>
         <img
-          src="../public/images/bolaDragon7.png"
+          src="@/public/images/bolaDragon7.png"
           alt="dragonBall"
           width="50"
           height="50"
@@ -42,7 +42,7 @@ export default {
     data() {
       return {
         options: optionsHeading
-      };
+      }
     }
 }
 </script>

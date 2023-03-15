@@ -31,7 +31,7 @@
 
 <script>
 import series from '~/assets/series.json';
-import ModalFilmSerie from './modals/ModalFilmSerie.vue';
+import ModalFilmSerie from './modals/modal-seriefilm/desktop/ModalFilmSerie.vue';
 export default {
     components: { ModalFilmSerie },
     data () {

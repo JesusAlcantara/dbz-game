@@ -19,7 +19,7 @@
 
 <script>
 import films from '~/assets/films.json';
-import ModalFilmSerie from './modals/ModalFilmSerie.vue';
+import ModalFilmSerie from './modals/modal-seriefilm/desktop/ModalFilmSerie.vue';
 
 export default {
     components: { ModalFilmSerie },
