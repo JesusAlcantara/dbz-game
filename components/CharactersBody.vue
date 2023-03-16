@@ -20,7 +20,15 @@
                 </button>
             </div>
         </div>
-        <ModalCharacters
+        <modal-characters-desktop
+            v-if="!isMobile"
+            v-show="showModal"
+            :character="item"
+            :image="getImage(imageItem)"
+            @close-modal="showModal = false"
+        />
+        <modal-characters-mobile
+            v-else
             v-show="showModal"
             :character="item"
             :image="getImage(imageItem)"
@@ -31,10 +39,12 @@
 
 <script>
 import characters from '~/assets/characters.json';
-import ModalCharacters from './modals/modal-characters/desktop/ModalCharacters.vue';
+import ModalCharactersDesktop from './modals/modal-characters/desktop/ModalCharacters.vue';
+import ModalCharactersMobile from './modals/modal-characters/mobile/ModalCharacters.vue';
+import isMobile from '~/static/isMobile';
 
 export default {
-    components: { ModalCharacters },
+    components: { ModalCharactersDesktop, ModalCharactersMobile },
     data () {
         return {
             item: {},
@@ -58,6 +68,9 @@ export default {
             this.item = character
             this.imageItem = character.image
         }
+    },
+    mounted () {
+        this.isMobile = isMobile()
     }
 }
 </script>

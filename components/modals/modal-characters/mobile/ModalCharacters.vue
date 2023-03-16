@@ -48,11 +48,10 @@ export default {
     }
     .img-modal {
         display: block;
-        width: 500px;
-        height: 650px;
+        width: 100%;
+        height: 75%;
         object-fit: cover;
-        border-radius: 10px;
-        margin: 10px auto 5px;
+        margin: 0px auto 5px;
     }
     .name-modal {
         font-family: fantasy;
