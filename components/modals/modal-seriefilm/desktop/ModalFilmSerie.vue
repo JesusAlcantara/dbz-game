@@ -18,7 +18,7 @@
                     :alt="item.name">
                 <h1 class="name-modal">{{ item.name }}</h1>
                 <div v-for="saga in item.sagas" :key="saga">
-                    <h3 class="saga-name">- <ins>{{ saga.name }}</ins></h3>
+                    <h3 class="saga-name">- <ins>{{ saga.saga_name }}</ins></h3>
                     <p class="saga-description">{{ saga.description }}</p>
                 </div>
                 <button

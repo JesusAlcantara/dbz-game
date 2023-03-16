@@ -20,7 +20,15 @@
                 </button>
             </div>
         </div>
-        <ModalFilmSerie
+        <modal-film-serie-mobile
+            v-if="isMobile"
+            v-show="showModal"
+            :item="item"
+            :image="getImage(imageItem)"
+            @close-modal="showModal = false"
+        />
+        <modal-film-serie-desktop
+            v-else
             v-show="showModal"
             :item="item"
             :image="getImage(imageItem)"
@@ -31,14 +39,18 @@
 
 <script>
 import series from '~/assets/series.json';
-import ModalFilmSerie from './modals/modal-seriefilm/desktop/ModalFilmSerie.vue';
+import ModalFilmSerieDesktop from './modals/modal-seriefilm/desktop/ModalFilmSerie.vue';
+import ModalFilmSerieMobile from './modals/modal-seriefilm/mobile/ModalFilmSerie.vue';
+import isMobileDevice from '~/helpers/device';
+
 export default {
-    components: { ModalFilmSerie },
+    components: { ModalFilmSerieDesktop, ModalFilmSerieMobile },
     data () {
         return {
             item: {},
             showModal: false,
-            imageItem: 'serie-defecto.png' 
+            imageItem: 'serie-defecto.png',
+            isMobile: false
         }
     },
     computed: {
@@ -56,6 +68,9 @@ export default {
             this.item = character
             this.imageItem = character.image
         }
+    },
+    mounted () {
+        this.isMobile = true ? isMobileDevice() : false
     }
 }
 </script>

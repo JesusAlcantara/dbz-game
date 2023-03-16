@@ -1,5 +1,5 @@
 <template>
-    <div ck>
+    <div>
         <transition name="fade">
             <div
                 class="modal-overlay"

@@ -1,9 +1,9 @@
 <template>
-    <div v-if="!isMobile">
-        <carousel-desktop />
+    <div v-if="isMobile">
+        <carousel-mobile />
     </div>
     <div v-else>
-        <carousel-mobile />
+        <carousel-desktop />
     </div>
     <!-- <div class="container">
         <div class="row align-items-start">
@@ -23,7 +23,7 @@
 <script>
 import CarouselDesktop from './carousel/desktop/CarouselDesktop.vue'
 import CarouselMobile from './carousel/mobile/CarouselMobile.vue'
-import isMobile from '~/static/isMobile'
+import isMobileDevice from '~/helpers/device';
 
 export default {
     components: { CarouselDesktop, CarouselMobile },
@@ -33,7 +33,7 @@ export default {
         }
     },
     mounted () {
-        this.isMobile = isMobile()
+        this.isMobile = true ? isMobileDevice() : false
     }
 }
 </script>

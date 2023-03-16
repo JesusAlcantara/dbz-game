@@ -14,20 +14,20 @@
                 <h5 class="card-title">{{ character.name }}</h5>
                 <button
                     class="btn btn-primary"
-                    @click="showModal = true; saveCharacter(character)"
+                    @click="showModal = true; saveCharacter(character);"
                 >
                     Ver más
                 </button>
             </div>
         </div>
-        <modal-characters-desktop
-            v-if="!isMobile"
+        <modal-characters-mobile
+            v-if="isMobile"
             v-show="showModal"
             :character="item"
             :image="getImage(imageItem)"
             @close-modal="showModal = false"
         />
-        <modal-characters-mobile
+        <modal-characters-desktop
             v-else
             v-show="showModal"
             :character="item"
@@ -41,7 +41,7 @@
 import characters from '~/assets/characters.json';
 import ModalCharactersDesktop from './modals/modal-characters/desktop/ModalCharacters.vue';
 import ModalCharactersMobile from './modals/modal-characters/mobile/ModalCharacters.vue';
-import isMobile from '~/static/isMobile';
+import isMobileDevice from '~/helpers/device';
 
 export default {
     components: { ModalCharactersDesktop, ModalCharactersMobile },
@@ -70,7 +70,7 @@ export default {
         }
     },
     mounted () {
-        this.isMobile = isMobile()
+      this.isMobile = true ? isMobileDevice() : this.isMobile = false
     }
 }
 </script>

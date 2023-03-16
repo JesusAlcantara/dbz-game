@@ -22,6 +22,7 @@
     <nuxt-link
       to="/"
       class="text-white m-2 text-decoration-none font-fantasy"
+      style="font-size: 25px;"
     >
       Dragon Ball Page
     </nuxt-link>

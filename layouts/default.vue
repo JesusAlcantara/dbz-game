@@ -1,13 +1,13 @@
 <template>
-  <div v-if="!isMobile">
-    <heading-desktop />
-    <nuxt />
-    <footer-desktop />
-  </div>
-  <div v-else>
+  <div v-if="isMobile">
     <heading-mobile />
     <nuxt />
     <footer-mobile />
+  </div>
+  <div v-else>
+    <heading-desktop />
+    <nuxt />
+    <footer-desktop />
   </div>
 </template>
 
@@ -16,7 +16,8 @@ import HeadingDesktop from '@/components/heading/desktop/Heading.vue'
 import HeadingMobile from '@/components/heading/mobile/Heading.vue'
 import FooterDesktop from '@/components/footer/desktop/Footer.vue'
 import FooterMobile from '@/components/footer/mobile/Footer.vue'
-import isMobile from '~/static/isMobile'
+import isMobileDevice from '~/helpers/device';
+
 export default {
     components: {
         HeadingDesktop,
@@ -30,7 +31,7 @@ export default {
       }
     },
     mounted () {
-      this.isMobile = isMobile()
+      this.isMobile = true ? isMobileDevice() : false
     }
 }
 </script>

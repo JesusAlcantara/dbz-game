@@ -1,5 +1,5 @@
 <template>
-    <div ck>
+    <div>
         <transition name="fade">
             <div
                 class="modal-overlay"
@@ -48,8 +48,8 @@ export default {
     }
     .img-modal {
         display: block;
-        width: 500px;
-        height: 650px;
+        width: 40%;;
+        height: 100%;
         object-fit: cover;
         border-radius: 10px;
         margin: 10px auto 5px;

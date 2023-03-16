@@ -18,7 +18,7 @@
                     :alt="item.name">
                 <h1 class="name-modal">{{ item.name }}</h1>
                 <div v-for="saga in item.sagas" :key="saga">
-                    <h3 class="saga-name">- <ins>{{ saga.name }}</ins></h3>
+                    <h3 class="saga-name">- <ins>{{ saga.saga_name }}</ins></h3>
                     <p class="saga-description">{{ saga.description }}</p>
                 </div>
                 <button
@@ -53,11 +53,11 @@ export default {
     }
     .img-modal {
         display: block;
-        width: 500px;
-        height: 650px;
+        width: 100%;
+        height: 75%;
         object-fit: cover;
         border-radius: 10px;
-        margin: 10px auto 5px;
+        margin: 0px auto 5px;
     }
     .name-modal {
         font-family: fantasy;
@@ -74,8 +74,8 @@ export default {
     }
     .modal {
         position: fixed;
-        width: 90%;
-        height: 90%;
+        width: 75%;
+        height: 75%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
