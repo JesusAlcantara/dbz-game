@@ -70,7 +70,12 @@ export default {
         }
     },
     mounted () {
-      this.isMobile = true ? isMobileDevice() : this.isMobile = false
+        this.isMobile = true ? isMobileDevice() : this.isMobile = false
+
+        if (typeof window !== 'undefined') {
+            window.scrollTo(0,0)
+        }
+
     }
 }
 </script>

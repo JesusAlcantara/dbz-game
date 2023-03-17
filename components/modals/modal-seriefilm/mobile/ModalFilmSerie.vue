@@ -88,7 +88,7 @@ export default {
         padding: 10px;
     }
     .saga-description {
-        font-family: cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding: 5px;
     }
 </style>

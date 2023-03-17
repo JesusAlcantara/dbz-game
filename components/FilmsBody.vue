@@ -45,6 +45,11 @@ export default {
             this.item = character
             this.imageItem = character.image
         }
+    },
+    mounted () {
+        if (typeof window !== 'undefined') {
+            window.scrollTo(0,0)
+        }
     }
 }
 </script>
