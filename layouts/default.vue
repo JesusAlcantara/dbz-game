@@ -31,6 +31,7 @@ export default {
       }
     },
     mounted () {
+      // Determina si el dispositivo actual es mobile o no
       this.isMobile = true ? isMobileDevice() : false
     }
 }

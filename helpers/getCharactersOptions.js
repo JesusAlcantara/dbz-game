@@ -10,5 +10,5 @@ export const getCharacters = () => {
 }
 
 const getCharactersOptions = async () => {
-
+    let charactersOptiones = getCharacters()
 }

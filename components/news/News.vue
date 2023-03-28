@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="m-2 fw-bold title">Novedades:</h2>
+        <h2 class="m-2 fw-bold title"><u>Novedades:</u></h2>
         <div class="d-flex justify-content-around flex-wrap contenedor">
             <div
                 v-for="item in news"
